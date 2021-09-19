@@ -1218,7 +1218,7 @@ class main:
                     faltan = True
             if -1001386769293 in dialogs: #🔲 Alianza DRK EKE & no #🔰DRKyEKE alianza
                 #Allies = Allies_cuadrado
-                if faltan:
+               if faltan:
                     try:
                         app.send_message("@shitandtrash_bot", "/start")
                         app.send_message(1217879961,"mandaré aquí lo que deberia mandar a otros chats pero no pude."+
