@@ -1213,7 +1213,7 @@ class main:
             dialogs = [i.chat.id for i in app.get_dialogs()]
             faltan = False
             for k, v in ids.items():
-                if offset_date==dialogs[-1].top_message.date:
+                if v not in dialogs:
                     ids[k]=1217879961
                     faltan = True
             if -1001386769293 in dialogs: #🔲 Alianza DRK EKE & no #🔰DRKyEKE alianza
